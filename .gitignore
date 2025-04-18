@@ -1,0 +1,6 @@
+client/src/components/Demo.jsx
+client/node_modules
+server/node_modules
+.env
+client/.env
+client/explaintion.txt

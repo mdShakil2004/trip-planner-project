@@ -1,0 +1,32 @@
+@keyframes heartbeat {
+  0% {
+    background-color: #f87171;
+  }
+  20% {
+    background-color: #ef4444;
+  }
+  40% {
+    background-color: #dc2626;
+  }
+  60% {
+    background-color: #ef4444;
+  }
+  80% {
+    background-color: #f87171;
+  }
+  100% {
+    background-color: #f87171;
+  }
+}
+.heartbeat {
+  animation: heartbeat 1s infinite;
+}
+
+/* Hide scrollbar but allow scrolling */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}

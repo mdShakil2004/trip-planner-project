@@ -1,0 +1,62 @@
+/* BackgroundScene.css */
+
+/* Animation keyframes */
+@keyframes move-background {
+  from {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+@-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+@-moz-keyframes move-background {
+  from {
+    -moz-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -moz-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+/* Custom animation classes */
+.animate-twinkle {
+  width: 10000px;
+  animation: move-background 70s linear infinite;
+  -webkit-animation: move-background 70s linear infinite;
+  -moz-animation: move-background 70s linear infinite;
+}
+
+.animate-clouds {
+  width: 10000px;
+  animation: move-background 150s linear infinite;
+  -webkit-animation: move-background 150s linear infinite;
+  -moz-animation: move-background 150s linear infinite;
+}
+
+/* Background image classes */
+.bg-stars {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png");
+  background-repeat: repeat;
+}
+
+.bg-twinkling {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png");
+  background-repeat: repeat;
+  background-size: 1000px 1000px;
+}
+
+.bg-clouds {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png");
+  background-repeat: repeat;
+  background-size: 1000px 1000px;
+}
