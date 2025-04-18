@@ -21,7 +21,7 @@ const RoadTripPlanner = () => {
   const [routeSummary, setRouteSummary] = useState(null);
   const [showLoader, setShowLoader] = useState(false); // State for loader after route creation
 
-  const TOMTOM_API_KEY = "5kWUb6923blREE5culhFRgYpW8IemtVo";
+  const TOMTOM_API_KEY = "######################";
   const DEFAULT_LOCATION = { lng: 77.2090, lat: 28.6139 }; // New Delhi, India
 
   const createArrowMarkerElement = () => {
