@@ -11,7 +11,7 @@ const Weathers = () => {
     nextDay: { condition: "Partly Cloudy", temp: 26 },
   });
 
-  const API_KEY = "e1d9a029bfa1f8ffb0bee45ec037a2e1"; // Your provided key
+  const API_KEY = "##################"; // Your provided key
   const DEFAULT_PLACE1 = "Current Area";
   const DEFAULT_PLACE2 = "Next Area";
 
